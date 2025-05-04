@@ -68,9 +68,9 @@ st.pyplot(fig2)
 
 st.subheader("Sales by Day of Week")
 
-filtered_df["date"] = pd.to_datetime(filtered_df["date"])
+filtered_df["order_date"] = pd.to_datetime(filtered_df["order_date"])
 
-filtered_df["day_of_week"] = filtered_df["date"].dt.day_name()
+filtered_df["day_of_week"] = filtered_df["order_date"].dt.day_name()
 
 sales_by_day = (
     filtered_df.groupby("day_of_week")["total_price"]

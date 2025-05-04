@@ -1,6 +1,11 @@
-order_id,date,customer_id,product,category,quantity,price_per_unit,country
-1001,2024-01-10,C001,T-shirt,Clothing,2,20.00,UK
-1002,2024-01-11,C002,Jeans,Clothing,1,40.00,USA
-1003,2024-01-12,C001,Mouse,Electronics,1,15.00,UK
-1004,2024-01-13,C003,Keyboard,Electronics,1,30.00,Canada
-1005,2024-01-13,C004,Socks,Clothing,3,5.00,Germany
+order_id,order_date,customer_id,product_id,product_name,category,quantity,unit_price,total_price,country
+1001,2024-12-01,C001,P001,Wireless Mouse,Electronics,2,15.00,30.00,United Kingdom
+1002,2024-12-01,C002,P002,Notebook Stationery,Office Supplies,5,2.00,10.00,United States
+1003,2024-12-02,C003,P003,LED Monitor,Electronics,1,120.00,120.00,Germany
+1004,2024-12-03,C001,P004,Mechanical Keyboard,Electronics,1,45.00,45.00,United Kingdom
+1005,2024-12-03,C004,P005,Ball Pen,Office Supplies,10,0.80,8.00,Canada
+1006,2024-12-04,C005,P006,Coffee Mug,Home & Kitchen,3,5.00,15.00,India
+1007,2024-12-05,C006,P007,Gaming Chair,Furniture,1,200.00,200.00,United States
+1008,2024-12-05,C007,P008,Desk Lamp,Home & Kitchen,2,18.00,36.00,Australia
+1009,2024-12-06,C008,P009,USB Cable,Electronics,4,3.50,14.00,Germany
+1010,2024-12-06,C002,P010,Wall Clock,Home & Kitchen,1,12.00,12.00,India
