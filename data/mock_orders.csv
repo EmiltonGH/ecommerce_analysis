@@ -1,0 +1,6 @@
+order_id,date,customer_id,product,category,quantity,price_per_unit,country
+1001,2024-01-10,C001,T-shirt,Clothing,2,20.00,UK
+1002,2024-01-11,C002,Jeans,Clothing,1,40.00,USA
+1003,2024-01-12,C001,Mouse,Electronics,1,15.00,UK
+1004,2024-01-13,C003,Keyboard,Electronics,1,30.00,Canada
+1005,2024-01-13,C004,Socks,Clothing,3,5.00,Germany
